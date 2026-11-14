@@ -1,59 +1,8 @@
-# ADCMT R6243 TFT Display Upgrade (VS Code)
-
 ADCMT/Advantest R6243/R6244 SMU TFT display upgrade - STM32 BluePill + LT7680A-R + 4.58" 320x960 TFT
 
 My webpage:
 https://www.ianjohnston.com/index.php/conversions/video-blog-173-adcmt6243
 
-This repository contains the **Visual Studio Code** version of my **ADCMT R6243 TFT Display Upgrade** firmware.
-
-The project replaces the original VFD display with a modern high-resolution TFT display driven by an **STM32F103C8T6 (Blue Pill)** and an **LT7680 TFT controller**.
-
-This repository was migrated from the original **Visual Studio 2022 / VisualGDB** project to a standard **Visual Studio Code + CMake + GNU Arm Embedded Toolchain** development environment.
-
-## Features
-
-- Full ADCMT R6243/R6244 display decoding
-- High-resolution TFT graphics
-- Original display faithfully reproduced
-- Fast screen updates
-- Modular embedded C source
-- STM32 HAL-based firmware
-
-## Development Environment
-
-- Visual Studio Code
-- CMake
-- Ninja
-- GNU Arm Embedded Toolchain
-- Cortex-Debug extension
-- STM32CubeCLT
-- ST-LINK GDB Server
-- STM32Cube HAL
-
-## Hardware
-
-- STM32F103C8T6 Blue Pill
-- LT7680 TFT controller
-- TFT LCD
-- Custom interface PCB
-
-## Project Structure
-
-The project is split into a number of modules, including:
-
-- Main application
-- LT7680 TFT controller driver
-- TFT graphics library
-- GPIO
-- SPI
-- DMA
-- Timer / Display decoder
-- STM32 HAL support
-
-## Notes (from the Visual Studio version ReadMe.txt)
-
-```text
 Interface with R6243 (VFD data sniffing):
 =========================================
 BluePill    Function
@@ -131,8 +80,3 @@ Notes for alignment (not changed):
 - LCD_Hor_Ver_Timing() and LCD_Clear() in lcd.c are not used and do not apply to the ST7701S.
 
 Datasheets used: LT768x_DS_V42_ENG.pdf, LT768x_AP-Note_V12_ENG.pdf, ST7701S_Ver1.4.pdf.
-```
-
----
-
-Ian Johnston
