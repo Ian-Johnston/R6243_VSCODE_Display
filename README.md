@@ -1,5 +1,7 @@
 # ADCMT/Advantest R6243/R6244 SMU TFT display upgrade - STM32 BluePill + LT7680A-R + 4.58" 320x960 TFT
 
+![R6243 TFT display upgrade](https://raw.githubusercontent.com/Ian-Johnston/R6243_VS_Display/master/Photos/R6243.png)
+
 This is the **Visual Studio Code** version (VS Code + CMake + GNU Arm Embedded Toolchain) of the original **Visual Studio 2022 / VisualGDB** project: [R6243_VS_Display](https://github.com/Ian-Johnston/R6243_VS_Display)
 
 My webpage:
