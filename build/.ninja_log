@@ -3,8 +3,8 @@
 58	197	8076602224410013	CMakeFiles/BluePill_Project.dir/Core/Src/sysmem.c.obj	9c5389856114d568
 64	204	8076602224460788	CMakeFiles/BluePill_Project.dir/Core/Src/system_stm32f1xx.c.obj	e4e092d72f9e9eb7
 7	226	8076603879187510	CMakeFiles/BluePill_Project.dir/Core/Src/dma.c.obj	6f050632e9e1db53
-12	236	8076603879235920	CMakeFiles/BluePill_Project.dir/Core/Src/gpio.c.obj	1ca4c2e27c3d1618
-16	243	8076603879278646	CMakeFiles/BluePill_Project.dir/Core/Src/lcd.c.obj	d28fea3302f8120d
+44	274	8163672715061716	CMakeFiles/BluePill_Project.dir/Core/Src/gpio.c.obj	1ca4c2e27c3d1618
+65	303	8163672715281563	CMakeFiles/BluePill_Project.dir/Core/Src/lcd.c.obj	d28fea3302f8120d
 33	254	8076603879445459	CMakeFiles/BluePill_Project.dir/Core/Src/spi.c.obj	26e30ca86e3792a8
 39	265	8076603879508725	CMakeFiles/BluePill_Project.dir/Core/Src/stm32f1xx_hal_msp.c.obj	2df8af65300cb21d
 45	273	8076603879561288	CMakeFiles/BluePill_Project.dir/Core/Src/stm32f1xx_it.c.obj	a24f23ebafb3b0ad
@@ -40,7 +40,7 @@
 265	527	8076603881767615	CMakeFiles/BluePill_Project.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj	dde11aed5378212d
 273	527	8076603881844316	CMakeFiles/BluePill_Project.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj	7c925832e32cccab
 282	528	8076603881934293	CMakeFiles/BluePill_Project.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c.obj	7c183880d0d1b1cb
-21	529	8076603879324975	CMakeFiles/BluePill_Project.dir/Core/Src/lt7680.c.obj	a31134c923bdaf8f
+71	326	8163672715344979	CMakeFiles/BluePill_Project.dir/Core/Src/lt7680.c.obj	a31134c923bdaf8f
 291	529	8076603882026532	CMakeFiles/BluePill_Project.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c.obj	a60b9bd6de0ff3ef
 299	530	8076603882100787	CMakeFiles/BluePill_Project.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj	a03b0d450173b5dd
 307	531	8076603882184983	CMakeFiles/BluePill_Project.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c.obj	22ac312ad9a95147
@@ -66,9 +66,9 @@
 420	597	8076603883314065	CMakeFiles/BluePill_Project.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c.obj	ff9264195787d1b3
 516	607	8076603884273421	CMakeFiles/BluePill_Project.dir/startup_stm32f103c8tx.S.obj	8618627a6043c876
 468	632	8076603883794748	CMakeFiles/BluePill_Project.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj	f6ec0a713fad7ca2
-2	641	8076603879133932	CMakeFiles/BluePill_Project.dir/Core/Src/display.c.obj	65209215ac7eaf42
+23	306	8163672714857940	CMakeFiles/BluePill_Project.dir/Core/Src/display.c.obj	65209215ac7eaf42
 501	647	8076603884120493	CMakeFiles/BluePill_Project.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj	f99a7933aa997e25
 316	650	8076603882277374	CMakeFiles/BluePill_Project.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj	928568b2014cdd61
 509	663	8076603884191226	CMakeFiles/BluePill_Project.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c.obj	b872e45fa32575f4
-27	710	8076603879385531	CMakeFiles/BluePill_Project.dir/Core/Src/main.c.obj	48a12a31d763161d
-710	996	8076603886215199	BluePill_Project	45bcdfbdb2df33f2
+77	364	8163672715399472	CMakeFiles/BluePill_Project.dir/Core/Src/main.c.obj	48a12a31d763161d
+364	777	8163672718271416	BluePill_Project	45bcdfbdb2df33f2
